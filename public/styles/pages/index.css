@@ -227,6 +227,13 @@ main {
   height: 1.5rem;
 }
 
+footer{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+  text-align: center;
+}
+
 @media(max-width:1390px) {
   .card {
     grid-template-columns: 5% 30% 20% 15% 17.25% 12.25%;

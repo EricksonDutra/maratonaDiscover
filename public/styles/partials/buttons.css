@@ -54,6 +54,15 @@ button.button {
   color: var(--color-text);
 }
 
+/* .button.red img {
+  background: var(--color-delete);
+  fill: white;
+} */
+
+.delete.button.red img {
+  filter: invert(99%) sepia(63%) saturate(920%) hue-rotate(298deg) brightness(200%) contrast(101%);
+}
+
 .button.red:hover {
   background: #FA3F38;
 }

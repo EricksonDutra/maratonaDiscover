@@ -17,5 +17,5 @@ server.use(express.urlencoded({ extended: true }))
 
 // routes
 server.use(routes)
-server.listen(3000, () => console.log('rodando'))
+server.listen(3000, () => console.log('rodando => http://localhost:3000'))
 
